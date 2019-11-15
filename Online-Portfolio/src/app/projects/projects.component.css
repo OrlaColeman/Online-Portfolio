@@ -1,0 +1,83 @@
+.image{
+    height: 80vh;
+    margin-left: -38%!important;
+}
+.snapshot1{
+    margin-left: 1%;
+    height: 30vh;
+}
+.snapshot2{
+    margin-left: 1%;
+    height: 30vh;
+}
+.image5{
+    margin-left: -41%;
+    height: 32%;
+    transition: transform .8s;
+}
+.image5:hover{
+    transform: scale(1.2);
+}
+.image6{
+    height: 32%;
+    transition: transform .8s;
+}
+.image6:hover{
+    transform: scale(1.2);
+}
+.image7{
+    margin-left: -42%;
+    height: 32%;
+    transition: transform .8s;
+}
+.image7:hover{
+    transform: scale(1.2);
+}
+.image8{
+    margin-left: 1%;
+    height: 32%;
+    transition: transform .8s;
+}
+.image8:hover{
+    transform: scale(1.2);
+}
+#code{
+    margin-left: -15%;
+}
+body{
+    background-color: rgba(247, 247, 247, 0.856);
+}  
+.btns{
+    margin-left: 5%;
+}
+hr.code{
+margin-left: -0.1px;
+}
+h3{
+    margin-top: 35%;
+    /* text-align: center; */
+    font-weight: bold;
+    font-family: 'Playfair Display', serif;
+
+}
+hr{
+    width: 65%;
+}
+h3{
+    transition: transform .8s;
+}
+h3:hover{
+    transform: scale(1.1);
+}
+.imageRow{
+    margin-top: -40%;
+}
+.moreBtn{
+    margin-top: -2%;
+}
+#info-card{
+    margin-top: 8%;
+}
+.modal{
+    margin-top: 8%!important;
+}

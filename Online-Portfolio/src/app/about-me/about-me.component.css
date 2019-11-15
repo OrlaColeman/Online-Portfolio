@@ -1,0 +1,46 @@
+
+hr{
+    width: 60%
+    }
+    #section1{
+        margin-top: 7%;
+        font-family: 'Playfair Display', serif;
+    }
+    .aboutMeText{
+        margin-top: 3%;
+    }
+    .image1{
+        height: 22%;
+        margin-left: -44%;
+    }
+    
+    .image2{
+        height: 22%;
+        margin-left: -24%;
+    
+    }
+    
+    .image3{
+        height: 22%;
+        margin-left: -12%;
+    }
+    .image4{
+        height: 22%;
+        margin-left: 16%;
+    }
+    .image5{
+        height: 22%;
+    margin-left:6%
+    }
+    .image6{
+        height: 22%;
+        padding-bottom: 0%;
+        margin-left: 20%;
+    }
+    #section2{
+        margin-top: 5%;
+        height: 35vh;
+    }
+    
+    
+    

@@ -1,0 +1,107 @@
+<body>
+    <div class="container">
+
+        <div class="row">
+
+            <div class="col-lg-6">
+                <a>
+                    <img src="../assets/img/projectFront.jpg" class="image" (click)="basicModal.show()">
+                </a>
+            </div>
+
+            <div class="col-lg-6 btnCol">
+                <div class="row btns">
+                    <div class="col-sm-4">
+                        <a (click)="showInfoBox()">
+                            <h3>Information</h3>
+                            <hr>
+                        </a>
+                    </div>
+                    <div class="col-sm-4">
+                        <a (click)="showSnapShots()">
+                            <h3>Snap Shots</h3>
+                            <hr>
+                        </a>
+                    </div>
+                    <div class="col-sm-4">
+                        <a (click)="showCode()">
+                            <h3>{{code}}</h3>
+                            <hr class="code">
+                        </a>
+                    </div>
+                </div>
+                <div id="info-card">
+
+                    <p>This is a quick description of this project. I created an online ordering system for kitchen
+                        staff This is instead of manually calling in every order, I have created an application where
+                        all companys are available to order from. Using this means all orders from meat to veg are
+                        stored in the same account and can be ordered using just one application. This is to help reduce
+                        errors including missing items or ordering too much. A major issue in kitchens is orders and
+                        finding the time to do them. With this application it should be easy and quick to do, also
+                        allowing for staff who don't usually make orderes able to do so by just looking at previous
+                        orders. It also facilitates data analysis of what is being spent and where savings can be made
+                        with is all in one space.
+                    </p>
+
+                </div>
+                <div id="snapshots">
+                    <div class="row snapshot1">
+                        <div class="col-lg-6">
+                            <img src="../assets/img/orderScreen.PNG" class="image5">
+                        </div>
+                        <div class="col-lg-6">
+                            <img src="../assets/img/welcomeScreen.PNG" class="image6">
+                        </div>
+                    </div>
+                    <div class="row snapshot2">
+                        <div class="col-lg-6">
+                            <img src="../assets/img/accountScreen.PNG" class="image7">
+                        </div>
+                        <div class="col-lg-6">
+                            <img src="../assets/img/optionScreen.PNG" class="image8">
+                        </div>
+                    </div>
+                </div>
+                <div id="code">
+                    <app-code></app-code>
+                </div>
+            </div>
+        </div>
+
+        <div class="row moreBtn">
+            <div class="col-sm-6"></div>
+            <div class="col-sm-6">
+                <a (click)="showMore(switchBtn)">
+                    {{switchBtn}}
+                </a>
+            </div>
+        </div>
+
+    </div>
+
+    <div mdbModal #basicModal="mdbModal" class="modal fade" tabindex="-1" role="dialog"
+        aria-labelledby="myBasicModalLabel" aria-hidden="true">
+        <div class="row">
+            <div class="col-sm-2"></div>
+            <div class="col-sm-8">
+                <button type="button" class="close pull-right" aria-label="Close" (click)="basicModal.hide()">
+                    <span aria-hidden="true">×</span>
+                </button>
+                <video class="video-fluid" controls="true" autoplay loop>
+                    <source src="../assets/img/projectVideo.mov" type="video/mp4" />
+                </video>
+
+            </div>
+        </div>
+    </div>
+    <!-- <div class="row">
+            <div class="col-lg-6"></div>
+            <div class="col-lg-6">
+
+            </div>
+        </div>
+    </div> -->
+</body>
+<div id="other-projects">
+    <app-other-projects></app-other-projects>
+</div>

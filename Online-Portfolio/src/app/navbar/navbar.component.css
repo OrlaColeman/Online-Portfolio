@@ -1,0 +1,20 @@
+nav.mb-1.navbar.navbar-expand-lg.navbar-dark.sticky-top{
+    background-color: black!important;
+    width: 100%!important;
+}
+.navbar{
+    min-height: 80px!important;
+    width: 100%;
+}
+#name{
+    margin-left:10%;
+}
+.navbar-nav.mr-auto{
+margin-left: 33%;
+}
+ul.navbar-nav.ml-auto.nav-flex-icons{
+    margin-right: 10%;
+}
+.sendBtn{
+    margin-left: 70%;
+}
