@@ -5,6 +5,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { BodyComponentsModule } from './body-components/body-components.module';
 import { BodyModule } from './body/body.module';
+import { MDBBootstrapModule } from 'angular-bootstrap-md';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { BodyModule } from './body/body.module';
     BrowserModule,
     AppRoutingModule,
     BodyComponentsModule,
-    BodyModule
+    BodyModule,
+    MDBBootstrapModule.forRoot()
   ],
   providers: [],
   bootstrap: [AppComponent]
