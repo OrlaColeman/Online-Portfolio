@@ -6,6 +6,9 @@ import { SkillsTimelineComponent } from './skills-timeline/skills-timeline.compo
   declarations: [SkillsTimelineComponent],
   imports: [
     CommonModule
+  ],
+  exports: [
+    SkillsTimelineComponent
   ]
 })
 export class SmallComponentsModule { }

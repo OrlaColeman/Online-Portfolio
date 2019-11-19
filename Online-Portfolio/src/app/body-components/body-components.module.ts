@@ -7,13 +7,15 @@ import { ScrollComponent } from './scroll/scroll.component';
 import { MDBBootstrapModule } from 'angular-bootstrap-md';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { SkillsComponent } from './skills/skills.component';
+import { SmallComponentsModule } from '../small-components/small-components.module';
 
 @NgModule({
   declarations: [AboutMeComponent, NavbarComponent, ProjectsComponent, ScrollComponent, SkillsComponent],
   imports: [
     CommonModule,
     MDBBootstrapModule,
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
+    SmallComponentsModule
   ],
   exports: [
     AboutMeComponent, 

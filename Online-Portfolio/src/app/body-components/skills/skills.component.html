@@ -1,46 +1,28 @@
-<div class="timeline-container">
-
-    <div class="left text-wrapper">
-        <div class="text">
-            <h3>Angular</h3>
-            <li>
-                <ul>Ordering App</ul>
-                <ul>Internship Project</ul>
-                <ul>Styled by Rachel</ul>
-                <ul>Tempo Antiques</ul>
-            </li>
+<div class="container">
+            <div id="navbar">
+                    <app-navbar></app-navbar>
+                  </div>
+    <div class="row">
+        <div class="col-lg-6 timeline">
+        <app-skills-timeline></app-skills-timeline>
+    </div>
+    <div class="col-lg-6 exp">
+        <div id="angular">
+            <h1>Angular</h1>
+            <p>I have experience in Angular from first teaching myself it for my college project to now creating web applications for clients with angular as the front-end. I have used Angular to create dynamic web pages, reusing components like lego blocks to allow for clean and easy to use code. I have now been coding in angular for almst a year.</p>
+        </div>
+        <div id="net">
+            <h1>.Net Framework</h1>
+            <p>I first began coding in c# in second semester completing assignments and getting an overall grade A on my module for both the exam and assignments. I then used the wider .Net framework during my internship when we used ASP.Net for our back-end. Also using the Entity Framework to turn our code to relational tables in our MSSQL database. I wrote all my own REST API's for this project although I was working on the front-end and was also the one who came up with the idea to use SignalR in the back-end to take advantage of web sockets. This was used to enable one coordinator to control what question was being displayed to all users.</p>
+        </div>
+        <div id="spring">
+            <h1>Spring Boot</h1>
+            <p>The first object-orientated language I was taught in was Java, I also received a grade A in this module. I completed console application assignments. However in second semester I taught myself Spring Boot to use for the back-end for my application. I also used Maven to organise my code and eclipse as the IDE. I used Spring boot for log-in and general security along with creating the relational tables in my database and the REST Api's to use in the front-end. I also have experience in the Play framework, in second semester we took object-orientated design patterns and created a map application in java and used the Play framework when we moved the console application to a web application.</p>
+        </div>
+        <div id="sql">
+            <h1>SQL</h1>
+            <p>During my internship, after 8 weeks I was moved client side and worked on a large scale data migration project. It was an insurance company with many clients sending in data on the insurance they sold on their loans. With each client the data differed, the project was to migrate all this data into one large data warehouse. This required us to first load the data using SSIS, then analyse the data in our local SQL database and finally create paramater tables and business rules based on the data. These business rules would be how they would migrate each different client into the same tables. I worked on this project for over three months and was all SQL based from writing queries to understanding the enitre data warehouse structure. I also have used MSSQL in all of my completed projects and created the relational mappings for both my college and intern project.</p>
         </div>
     </div>
-
-    <div class="right text-wrapper">
-        <div class="text">
-            <h3>.Net Framework</h3>
-            <li>
-                <ul>Internship Project</ul>
-                <ul>College assignments</ul>
-            </li>
-        </div>
     </div>
-        <div class="left text-wrapper">
-                <div class="text">
-                    <h3>Spring/Java</h3>
-                    <li>
-                        <ul>Ordering App</ul>
-                        <ul>College assignments</ul>
-                    </li>
-                </div>
-            </div>
-        
-            <div class="right text-wrapper">
-                <div class="text">
-                    <h3>SQL</h3>
-                    <li>
-                        <ul>Data migration project</ul>
-                        <ul>Internship Project</ul>
-                        <ul>Ordering App</ul>
-                        <ul>College assignments</ul>
-                    </li>
-                </div>
-    </div>
-
 </div>
