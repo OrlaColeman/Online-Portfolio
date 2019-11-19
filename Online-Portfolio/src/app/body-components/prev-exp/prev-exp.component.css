@@ -1,4 +1,15 @@
 .map_logos{
+    position: relative;
+    left: 25%;
+    top: 40%;
     width: 100px;
     height: auto;
+    transition: transform .8s;
+}
+.map_logos:hover{
+transform: scale(1.1);
+}
+#africa{
+    position: absolute;
+    top: 50%;
 }

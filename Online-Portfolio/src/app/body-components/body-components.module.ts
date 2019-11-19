@@ -25,7 +25,8 @@ import { PrevExpComponent } from './prev-exp/prev-exp.component';
     NavbarComponent, 
     ProjectsComponent,
     ScrollComponent,
-    SkillsComponent
+    SkillsComponent,
+    PrevExpComponent
   ]
 })
 export class BodyComponentsModule { }
