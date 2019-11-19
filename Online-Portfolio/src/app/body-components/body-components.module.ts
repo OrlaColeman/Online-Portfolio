@@ -5,6 +5,7 @@ import { NavbarComponent } from './navbar/navbar.component';
 import { ProjectsComponent } from './projects/projects.component';
 import { ScrollComponent } from './scroll/scroll.component';
 import { MDBBootstrapModule } from 'angular-bootstrap-md';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 @NgModule({
   declarations: [AboutMeComponent, NavbarComponent, ProjectsComponent, ScrollComponent],
@@ -16,7 +17,8 @@ import { MDBBootstrapModule } from 'angular-bootstrap-md';
     NavbarComponent, 
     ProjectsComponent,
     ScrollComponent,
-    MDBBootstrapModule
+    MDBBootstrapModule,
+    BrowserAnimationsModule
   ]
 })
 export class BodyComponentsModule { }

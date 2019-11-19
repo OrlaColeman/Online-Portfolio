@@ -1,20 +1,33 @@
-nav.mb-1.navbar.navbar-expand-lg.navbar-dark.sticky-top{
-    background-color: black!important;
-    width: 100%!important;
+nav{
+    margin-top: 3%;
 }
-.navbar{
-    min-height: 80px!important;
-    width: 100%;
+span{
+    padding-left: 5%;
 }
-#name{
-    margin-left:10%;
+a:hover, a:visited, a:link, a:active
+{
+    text-decoration: none;
+    color: black;
 }
-.navbar-nav.mr-auto{
-margin-left: 33%;
+.navbar-toggler{
+    position: relative;
+    right: 20%;
 }
-ul.navbar-nav.ml-auto.nav-flex-icons{
-    margin-right: 10%;
+#buttons{
+    position: relative;
+    left: 35%;
+    top: 20%;
 }
-.sendBtn{
-    margin-left: 70%;
+.nav-link{
+    position: relative;
+    left: 55%;
+}
+@media only screen and (max-width: 770px){
+    .btns{
+        display: none;
+    }
+    .nav-link{
+        padding: 5%;
+        right: 10%;
+    }
 }

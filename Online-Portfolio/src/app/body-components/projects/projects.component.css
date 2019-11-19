@@ -1,41 +1,52 @@
-.image{
-    height: 80vh;
-    margin-left: -38%!important;
-}
-.snapshot1{
+/* .snapshot1{
     margin-left: 1%;
     height: 30vh;
 }
 .snapshot2{
     margin-left: 1%;
     height: 30vh;
+} */
+.row1{
+    padding-top: 2%;
+}
+.row2{
+    padding-top: 2%;
+}
+.image{
+    width: 100%;
+    height: auto;
 }
 .image5{
-    margin-left: -41%;
-    height: 32%;
+padding: 5%;
+    height: auto;
+    width: 100%;
     transition: transform .8s;
 }
 .image5:hover{
     transform: scale(1.2);
 }
 .image6{
-    height: 32%;
+    padding: 5%;
+    height: auto;
+    width: 100%;
     transition: transform .8s;
 }
 .image6:hover{
     transform: scale(1.2);
 }
 .image7{
-    margin-left: -42%;
-    height: 32%;
+    padding: 5%;
+    height: auto;
+    width: 100%;
     transition: transform .8s;
 }
 .image7:hover{
     transform: scale(1.2);
 }
 .image8{
-    margin-left: 1%;
-    height: 32%;
+    padding: 5%;
+    height: auto;
+    width: 100%;
     transition: transform .8s;
 }
 .image8:hover{
@@ -44,9 +55,9 @@
 #code{
     margin-left: -15%;
 }
-body{
+/* .container{
     background-color: rgba(247, 247, 247, 0.856);
-}  
+}   */
 .btns{
     margin-left: 5%;
 }

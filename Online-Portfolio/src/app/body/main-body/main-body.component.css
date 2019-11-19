@@ -1,0 +1,19 @@
+#navbar{
+    z-index: 20000;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0%;
+    background: rgba(255, 255, 255, 0.856);
+}
+div.projects{ 
+    background-color: rgba(245, 245, 245, 0.856);
+}
+.projectRow{
+    padding-top: 5%;
+    padding-bottom: 3%;
+}
+@media only screen and (max-width: 600px){
+    #navbar{
+        display: nones;
+    }
+}
