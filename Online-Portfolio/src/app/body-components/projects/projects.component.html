@@ -23,7 +23,7 @@
         </div>
     </div>
     <div class="row row1">
-            <hr>
+        <hr>
     </div>
     <div class="row row2">
         <div class="col-lg-6">
@@ -52,11 +52,27 @@
     <hr>
 
     <div class="row">
-        <div class="col-lg-6">
-            <img src="">
+        <div class="col-sm-12">
+            <h3>Current Projects</h3>
         </div>
-        <div class="col-lg-6">
-            <img src="">
+    </div>
+    <div class="row">
+        <div class="col-sm-1"></div>
+        <div class="col-lg-5">
+            <a (click)="showRachelVid()"><img src="../assets/img/styled_by_rachel_cover.png" id="rachel_cover"></a>
+            <div id="styled_by_rachel_vid">
+                <video class="video-fluid" controls="true">
+                    <source src="../assets/img/styled_by_rachel.mov" type="video/mp4" />
+                </video>
+            </div>
+        </div>
+        <div class="col-lg-5">
+            <a (click)="showTempoVid()"><img src="../assets/img/tempo_antiques_cover.png" id="tempo_cover"></a>
+            <div id="tempo_antiques_vid">
+                <video class="video-fluid" controls="true">
+                    <source src="../assets/img/tempo_antiques_vid.mov" type="video/mp4" />
+                </video>
+            </div>
         </div>
     </div>
 </div>

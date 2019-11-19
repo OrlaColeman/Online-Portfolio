@@ -6,6 +6,36 @@
     margin-left: 1%;
     height: 30vh;
 } */
+video{
+    position: relative;
+    padding: 3%;
+    width: 100%;
+    height: auto;
+}
+#rachel_cover{
+    position: relative;
+    top: 10%;
+    padding: 3%;
+    /* width: auto;
+    height: 40%; */
+
+    width: 100%;
+    height: auto;
+}
+#tempo_cover{
+    position: relative;
+    top: 10%;
+    padding: 3%;
+    /* width: auto;
+    height: 40%; */
+
+    width: 100%;
+    height: auto;
+}
+h3{
+    font-family: 'Playfair Display', serif;
+    text-align: center;
+}
 .row1{
     padding-top: 2%;
 }
@@ -64,13 +94,7 @@ padding: 5%;
 hr.code{
 margin-left: -0.1px;
 }
-h3{
-    margin-top: 35%;
-    /* text-align: center; */
-    font-weight: bold;
-    font-family: 'Playfair Display', serif;
 
-}
 hr{
     width: 65%;
 }
