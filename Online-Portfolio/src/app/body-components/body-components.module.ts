@@ -8,11 +8,14 @@ import { MDBBootstrapModule } from 'angular-bootstrap-md';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { SkillsComponent } from './skills/skills.component';
 import { SmallComponentsModule } from '../small-components/small-components.module';
+import { AppRoutingModule } from '../app-routing.module';
+import { PrevExpComponent } from './prev-exp/prev-exp.component';
 
 @NgModule({
-  declarations: [AboutMeComponent, NavbarComponent, ProjectsComponent, ScrollComponent, SkillsComponent],
+  declarations: [AboutMeComponent, NavbarComponent, ProjectsComponent, ScrollComponent, SkillsComponent, PrevExpComponent],
   imports: [
     CommonModule,
+    AppRoutingModule,
     MDBBootstrapModule,
     BrowserAnimationsModule,
     SmallComponentsModule
