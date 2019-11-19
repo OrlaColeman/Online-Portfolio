@@ -6,19 +6,21 @@ import { ProjectsComponent } from './projects/projects.component';
 import { ScrollComponent } from './scroll/scroll.component';
 import { MDBBootstrapModule } from 'angular-bootstrap-md';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { SkillsComponent } from './skills/skills.component';
 
 @NgModule({
-  declarations: [AboutMeComponent, NavbarComponent, ProjectsComponent, ScrollComponent],
+  declarations: [AboutMeComponent, NavbarComponent, ProjectsComponent, ScrollComponent, SkillsComponent],
   imports: [
-    CommonModule
+    CommonModule,
+    MDBBootstrapModule,
+    BrowserAnimationsModule
   ],
   exports: [
     AboutMeComponent, 
     NavbarComponent, 
     ProjectsComponent,
     ScrollComponent,
-    MDBBootstrapModule,
-    BrowserAnimationsModule
+    SkillsComponent
   ]
 })
 export class BodyComponentsModule { }

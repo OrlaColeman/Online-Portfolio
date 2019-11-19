@@ -16,9 +16,6 @@ video{
     position: relative;
     top: 10%;
     padding: 3%;
-    /* width: auto;
-    height: 40%; */
-
     width: 100%;
     height: auto;
 }
@@ -26,9 +23,6 @@ video{
     position: relative;
     top: 10%;
     padding: 3%;
-    /* width: auto;
-    height: 40%; */
-
     width: 100%;
     height: auto;
 }
@@ -82,37 +76,6 @@ padding: 5%;
 .image8:hover{
     transform: scale(1.2);
 }
-#code{
-    margin-left: -15%;
-}
-/* .container{
-    background-color: rgba(247, 247, 247, 0.856);
-}   */
-.btns{
-    margin-left: 5%;
-}
-hr.code{
-margin-left: -0.1px;
-}
-
 hr{
     width: 65%;
-}
-h3{
-    transition: transform .8s;
-}
-h3:hover{
-    transform: scale(1.1);
-}
-.imageRow{
-    margin-top: -40%;
-}
-.moreBtn{
-    margin-top: -2%;
-}
-#info-card{
-    margin-top: 8%;
-}
-.modal{
-    margin-top: 8%!important;
 }

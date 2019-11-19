@@ -2,10 +2,12 @@ import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 import { MainBodyComponent } from './body/main-body/main-body.component';
 import { ProjectsComponent } from './body-components/projects/projects.component';
+import { SkillsComponent } from './body-components/skills/skills.component';
 
 const routes: Routes = [
   {path: '', component:MainBodyComponent},
-  {path: 'projects', component: ProjectsComponent}
+  {path: 'projects', component: ProjectsComponent},
+  {path: 'skills', component: SkillsComponent}
 ];
 
 @NgModule({

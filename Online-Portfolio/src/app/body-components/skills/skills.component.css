@@ -1,0 +1,40 @@
+.timeline-container{
+    position: relative;
+    width: 600px;
+    margin: 150px auto 0 auto;
+}
+.timeline-container::after{
+    content: '';
+    position: absolute;
+    width: 6px;
+    background-color: #F5F5F5;
+    top: 0;
+    bottom: 0;
+    left: 50%;
+    margin-left: -3px;
+}
+.text-wrapper{
+    padding: 10px 40px;
+    position: relative;
+    background-color: inherit;
+    width: 50%;
+    box-sizing: border-box;
+    margin: 50px 0;
+}
+.text-wrapper::after{
+    content: '';
+    position: absolute;
+    height: 20px;
+    width: 20px;
+    right: -10px;
+    background-color: lightblue;
+    top: 15px;
+    border-radius: 50%;
+    z-index: 1;
+}
+.left{
+    left:0
+}
+.right{
+    left: 50%;
+}
