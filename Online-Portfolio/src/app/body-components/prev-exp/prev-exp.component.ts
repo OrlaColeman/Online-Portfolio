@@ -12,4 +12,8 @@ export class PrevExpComponent implements OnInit {
   ngOnInit() {
   }
 
+  showAfrica(){
+    document.getElementById('africa').scrollIntoView({behavior: "smooth", block: "end", inline: "nearest"});
+      }
+
 }
