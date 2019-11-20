@@ -3,7 +3,7 @@
         <div class="col-lg-6">
             <div class="row">
                 <div class="col-sm-6">
-                   <a (click)="showAmerica()"><img src="../assets/img/america.png" class="map_logos"></a>                    
+                    <a (click)="showAmerica()"><img src="../assets/img/america.png" class="map_logos"></a>
                 </div>
                 <div class="col-sm-6">
                     <a (click)="showEurope()"><img src="../assets/img/europe.png" class="map_logos"></a>
@@ -22,8 +22,17 @@
         </div>
     </div>
     <div class="row">
-        <div id="africa">
+        <div [@fadeIn]='currentState' id="africa">
             <app-africa></app-africa>
+        </div>
+        <div [@fadeIn]='currentState2' id="europe">
+            <app-europe></app-europe>
+        </div>
+        <div [@fadeIn]='currentState3' id="america">
+            <app-usa></app-usa>
+        </div>
+        <div [@fadeIn]='currentState4' id="aus">
+            <app-aus></app-aus>
         </div>
     </div>
 </div>

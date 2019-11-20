@@ -9,7 +9,9 @@ const routes: Routes = [
   {path: '', component:MainBodyComponent},
   {path: 'projects', component: ProjectsComponent},
   {path: 'skills', component: SkillsBodyComponent},
-  {path: 'exp', component: ExpBodyComponent}
+  {path: 'skills/exp', component: ExpBodyComponent},
+  {path: 'exp', component: ExpBodyComponent},
+  {path: 'exp/skills', component: SkillsBodyComponent}
 ];
 
 @NgModule({
