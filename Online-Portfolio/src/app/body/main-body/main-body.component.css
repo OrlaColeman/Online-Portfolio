@@ -12,8 +12,33 @@ div.projects{
     padding-top: 5%;
     padding-bottom: 3%;
 }
-@media only screen and (max-width: 600px){
+#nav_btns{
+    display: none;
+    position: relative;
+    left: 35%;
+    top: 20%;
+    
+}
+a:hover, a:visited, a:link, a:active
+{
+    text-decoration: none;
+    color: black;
+    padding: 3%; 
+}
+
+@media only screen and (max-width: 990px){
+    div.projects{
+        margin-top: 95%;
+    }
+}
+@media only screen and (max-width: 575px){
     #navbar{
-        display: nones;
+        display: none;
+    }
+    div.projects{
+        margin-top: 500%;
+    }
+    #nav_btns{
+        display: block;
     }
 }

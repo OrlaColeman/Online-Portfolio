@@ -25,3 +25,24 @@ transform: scale(1.1);
     position: absolute;
     top: 50%;
 }
+#text_btns{
+    display: none;
+}
+a:hover, a:visited, a:link, a:active
+{
+    text-decoration: none;
+    color: black;
+    padding: 3%; 
+}
+span{
+    padding: 5%;
+    text-align: center;
+}
+@media only screen and (max-width: 575px){
+    #text_btns{
+        display: block;
+    }
+    #image_btns{
+        display: none;
+    }
+}

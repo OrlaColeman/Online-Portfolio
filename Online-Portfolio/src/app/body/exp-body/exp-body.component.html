@@ -2,6 +2,13 @@
     <div id="navbar">
         <app-navbar></app-navbar>
     </div>
+    <div class="row" id="nav_btns">
+        <div class="col-sm-6 btns">
+            <a [routerLink]="['/']"><span>Projects</span></a>
+           <a [routerLink]="['/skills']"> <span>Skills</span></a>
+           <a [routerLink]="['exp']"> <span>Previous Exp</span></a>
+        </div>
+      </div>
     <div id="exp">
         <app-prev-exp></app-prev-exp>
     </div>

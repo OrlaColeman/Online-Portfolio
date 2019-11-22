@@ -1,6 +1,6 @@
 <div class="container">
-    <div class="row">
-        <div class="col-lg-6">
+    <div class="row" id="image_btns">
+        <div class="col-sm-6">
             <div class="row">
                 <div class="col-sm-6">
                     <a (click)="showAmerica()"><img src="../assets/img/America.PNG" class="map_logos"></a>
@@ -10,7 +10,7 @@
                 </div>
             </div>
         </div>
-        <div class="col-lg-6">
+        <div class="col-sm-6">
             <div class="row">
                 <div class="col-sm-6">
                     <a (click)="showAfrica()"><img src="../assets/img/Africa.PNG" class="map_logos"></a>
@@ -21,6 +21,14 @@
             </div>
         </div>
     </div>
+    <div class="row" id="text_btns">
+            <div class="col-sm-12">
+                    <a (click)="showAmerica()"><span>America</span></a>
+                    <a (click)="showEurope()"> <span>Europe</span></a>
+                    <a (click)="showAfrica()"> <span>Africa</span></a> 
+                    <a (click)="showAus()"> <span>Australia</span></a>
+            </div>    
+        </div>
     <div class="row">
         <div [@fadeIn]='currentState' id="africa">
             <app-africa></app-africa>
