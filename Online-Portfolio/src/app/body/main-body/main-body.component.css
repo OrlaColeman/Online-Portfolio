@@ -35,10 +35,14 @@ a:hover, a:visited, a:link, a:active
     #navbar{
         display: none;
     }
-    div.projects{
-        margin-top: 500%;
+    #about_me{
+        display:none;
     }
     #nav_btns{
         display: block;
+    }
+    div.projects{
+        margin-top: 0%;
+        background-color: white;
     }
 }
