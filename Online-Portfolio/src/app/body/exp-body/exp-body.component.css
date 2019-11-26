@@ -8,7 +8,7 @@
 #nav_btns{
     display: none;
     position: relative;
-    left: 35%;
+    left: 15%;
     top: 20%;
     
 }
@@ -25,5 +25,8 @@ a:hover, a:visited, a:link, a:active
     }
     #nav_btns{
         display: block;
+    }
+    #exp{
+        margin-top: 5%;
     }
 }

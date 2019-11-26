@@ -23,7 +23,7 @@ a:hover, a:visited, a:link, a:active
     left: 55%;
 }
 @media only screen and (max-width: 770px){
-    .btns{
+    .links{
         display: none;
     }
     .nav-link{
