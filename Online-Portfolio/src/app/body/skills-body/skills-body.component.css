@@ -5,6 +5,27 @@
         top: 0%;
         background: rgba(255, 255, 255, 0.856);
 }
+#nav_btns{
+    display: none;
+    position: relative;
+    left: 35%;
+    top: 20%;
+    
+}
+a:hover, a:visited, a:link, a:active
+{
+    text-decoration: none;
+    color: black;
+    padding: 3%; 
+}
 #skills{
     margin-top:-8%;
+}
+@media only screen and (max-width: 575px){
+    #navbar{
+        display: none;
+    }
+    #nav_btns{
+        display: block;
+    }
 }

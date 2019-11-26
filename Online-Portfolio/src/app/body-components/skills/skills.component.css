@@ -31,3 +31,24 @@
     border-color: black!important;
     border-style: solid!important; 
 }
+.btns2{
+    display: none;
+    color: black;
+    border-radius: 70px;
+    border-width: 2px;
+    background-color:white!important;
+    border-color: black!important;
+    border-style: solid!important; 
+}
+@media only screen and (max-width:575px){
+    .exp{
+        margin-left: 30%;
+        text-align: center;
+    }
+    .btns{
+        display: none;
+    }
+    .btns2{
+        display: block;
+    }
+}
