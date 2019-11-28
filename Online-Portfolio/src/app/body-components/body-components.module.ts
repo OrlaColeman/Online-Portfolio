@@ -4,21 +4,20 @@ import { AboutMeComponent } from './about-me/about-me.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { ProjectsComponent } from './projects/projects.component';
 import { ScrollComponent } from './scroll/scroll.component';
-import { MDBBootstrapModule } from 'angular-bootstrap-md';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { SkillsComponent } from './skills/skills.component';
 import { SmallComponentsModule } from '../small-components/small-components.module';
 import { AppRoutingModule } from '../app-routing.module';
 import { PrevExpComponent } from './prev-exp/prev-exp.component';
+import { HomeScreenComponent } from './home-screen/home-screen.component';
 
 @NgModule({
-  declarations: [AboutMeComponent, NavbarComponent, ProjectsComponent, ScrollComponent, SkillsComponent, PrevExpComponent],
+  declarations: [AboutMeComponent, NavbarComponent, ProjectsComponent, ScrollComponent, SkillsComponent, PrevExpComponent, HomeScreenComponent],
   imports: [
     CommonModule,
     AppRoutingModule,
-    MDBBootstrapModule,
     BrowserAnimationsModule,
-    SmallComponentsModule
+    SmallComponentsModule, 
   ],
   exports: [
     AboutMeComponent, 
