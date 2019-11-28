@@ -1,3 +1,10 @@
-<div class="container">
-  <img src="https://api.qrserver.com/v1/create-qr-code/?data=Welcome to my online portfolio! The enter button is hidden for the next 20 seconds but you can click right below this to enter!&amp;size=100x100" alt="" title="" />
+<div class="container-fluid">
+    <div id="qr_code">
+      <a [routerLink]="['/']">  <img src="https://api.qrserver.com/v1/create-qr-code/?data=Welcome Please click to enter&amp;size=200x200"/></a>
+    </div>
+    <div id="enter">
+      <h1>Didn't scan?</h1><br>
+      <h2>No Problem! Click below to enter</h2>
+        <button (click)="goToMainPage()" class="btn btn-light">Enter</button>
+    </div>
 </div>

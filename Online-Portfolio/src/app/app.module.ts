@@ -18,7 +18,7 @@ import { SocialModule } from './social/social.module';
     AppRoutingModule,
     BodyComponentsModule,
     BodyModule,
-    LoaderModule,,
+    LoaderModule,
     SocialModule,
   ],
   providers: [],
