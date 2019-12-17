@@ -7,6 +7,7 @@ import { BodyModule } from './body/body.module';
 import { LoaderModule } from './loader/loader.module';
 import { LoadingScreenComponent } from './loader/loading-screen/loading-screen.component';
 import { SocialModule } from './social/social.module';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -20,6 +21,7 @@ import { SocialModule } from './social/social.module';
     BodyModule,
     LoaderModule,
     SocialModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]

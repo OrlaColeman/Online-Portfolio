@@ -10,6 +10,7 @@ import { SmallComponentsModule } from '../small-components/small-components.modu
 import { AppRoutingModule } from '../app-routing.module';
 import { PrevExpComponent } from './prev-exp/prev-exp.component';
 import { HomeScreenComponent } from './home-screen/home-screen.component';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [AboutMeComponent, NavbarComponent, ProjectsComponent, ScrollComponent, SkillsComponent, PrevExpComponent, HomeScreenComponent],
@@ -18,6 +19,7 @@ import { HomeScreenComponent } from './home-screen/home-screen.component';
     AppRoutingModule,
     BrowserAnimationsModule,
     SmallComponentsModule, 
+    HttpClientModule
   ],
   exports: [
     AboutMeComponent, 

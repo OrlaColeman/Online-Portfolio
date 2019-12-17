@@ -8,7 +8,8 @@
 <div class="col-sm-6 btns">
   <div id="buttons" [@fadeIn]='currentState'>
     <a [routerLink]="['/']"><span>Projects</span></a>
-   <a [routerLink]="['/skills']"> <span>Skills</span></a>
+   <!-- <a [routerLink]="['/skills']">  -->
+    <a href="https://api.instagram.com/oauth/authorize/?app_id=521641655232804&redirect_uri=https%3A%2F%2Flocalhost%3A4200%2Fskills&scope=user_profile,user_media&response_type=code"><span>Skills</span></a>
    <a [routerLink]="['exp']"> <span>Previous Exp</span></a>
   </div>
 </div>
